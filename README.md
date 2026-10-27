@@ -12,8 +12,8 @@
 [![Blog](https://img.shields.io/badge/Blog-velog-20C997?style=flat-square&logo=velog&logoColor=white)](https://velog.io/@devgyurak/posts)
 [![CV Download](https://img.shields.io/badge/CV-download-E5383B?style=flat-square&logo=readdotcv&logoColor=white)](https://cdn.devgyurak.com/resume_leegyurak.pdf)
 <br/>
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=leegyurak.leegyurak)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+![Visitors](https://komarev.com/ghpvc/?username=devgyurak&base=1714&style=flat-square&color=7F52FF&label=Visitors)
+[![Open Source](https://img.shields.io/badge/Open%20Source-Love%20%E2%9D%A4-3DA639?style=flat-square&logo=opensourceinitiative&logoColor=white)](https://github.com/devgyurak?tab=repositories)
 
 </div>
 
