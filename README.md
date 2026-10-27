@@ -1,32 +1,76 @@
-# Hello there 👋
+<div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F52FF,100:3670A0&height=200&section=header&text=Hello%20there%20👋&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20·%20AX%20Engineer%20·%20이규락&descAlignY=58&descSize=20&animation=fadeIn" width="100%" alt="header"/>
+
+<a href="https://github.com/devgyurak">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=7F52FF&center=true&vCenter=true&width=600&lines=%24+whoami;Software+Engineer;AX+Engineer+%C2%B7+AI+Lover;Building+with+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB+%2B+%F0%9F%A4%96;Python+%C2%B7+Kotlin+%C2%B7+Django+%C2%B7+FastAPI+%C2%B7+Spring;Thanks+for+visiting+my+GitHub+profile!" alt="typing"/>
+</a>
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-devgyurak.com-000000?style=flat-square&logo=googlechrome&logoColor=white)](https://devgyurak.com)
+[![Blog](https://img.shields.io/badge/Blog-velog-20C997?style=flat-square&logo=velog&logoColor=white)](https://velog.io/@devgyurak/posts)
+[![CV Download](https://img.shields.io/badge/CV-download-E5383B?style=flat-square&logo=readdotcv&logoColor=white)](https://cdn.devgyurak.com/resume_leegyurak.pdf)
+<br/>
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=leegyurak.leegyurak)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
-[![CV Download](https://img.shields.io/badge/CV-download-red)](https://cdn.devgyurak.com/resume_leegyurak.pdf)
+
+</div>
+
+<br/>
+
+## 🧑‍💻 About Me
 
 ```kotlin
-class SoftwareEngineer {
-    val name: String = "이규락"
-    val role: String = "Software Engineer"
-    val languageSpoken: List<String> = listOf("ko_KR", "en_US")
-    
-    fun introduce() {
-        println("Hi, I'm $name. Thanks for visiting my Github profile.")
-    }
+interface AILover {
+    val pairProgrammer: String get() = "🤖 AI"
+    fun build(project: String) = "💡 $project → 🧑‍💻 + 🤖 → 🚀"
+}
+
+data class Engineer(
+    val name: String,
+    val roles: List<String>,
+    val languageSpoken: List<String>,
+) : AILover {
+    fun introduce() = println("Hi, I'm $name — ${roles.joinToString(" · ")}. Thanks for visiting 🙌")
 }
 
 fun main() {
-    val me = SoftwareEngineer()
+    val me = Engineer(
+        name = "이규락",
+        roles = listOf("Software Engineer", "AX Engineer", "AI Lover"),
+        languageSpoken = listOf("ko_KR", "en_US"),
+    )
     me.introduce()
+    listOf("pykorail", "mysql-gcm", "syncintosh").forEach { println(me.build(it)) }
 }
 ```
 
-## 🖥️ Websites
+- 🛠️ **Software Engineer** — building SDKs, database extensions, and developer tools
+- 🔄 **AX Engineer** — bringing AI into how software gets designed, written, reviewed, and shipped
+- 🤖 **AI Lover** — every project I'm currently working on is built together with AI
 
-- Personal portfolio site: https://devgyurak.com
-- Personal blog site: https://velog.io/@devgyurak/posts
+## 🔧 Tech Stack
 
-### 📔 Latest Blog posts
+| Category | Stack |
+| :-- | :-- |
+| **Languages** | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Kotlin](https://img.shields.io/badge/kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white) |
+| **Frameworks** | ![Django](https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) |
+| **OS & Deploy** | ![Docker](https://img.shields.io/badge/docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-2671E5?style=for-the-badge&logo=githubactions&logoColor=white) |
+| **Databases** | ![MySQL](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-316192?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/redis-DD0031?style=for-the-badge&logo=redis&logoColor=white) |
+
+## 🚀 Featured Projects
+
+| Project | Description | Stack |
+| :-- | :-- | :-- |
+| 🚄 [**pykorail**](https://github.com/devgyurak/pykorail) [![stars](https://img.shields.io/github/stars/devgyurak/pykorail?style=flat-square&color=7F52FF&label=★)](https://github.com/devgyurak/pykorail/stargazers) | Unofficial Python SDK for the Korail Talk API — search, book, pay, refund, waitlist, and watch for cancelled KTX tickets in a few lines of code | ![Python](https://img.shields.io/badge/-Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) |
+| 🔐 [**mysql-gcm**](https://github.com/devgyurak/mysql-gcm) | AES-GCM for MySQL 8.0+ as a server component — keeps server-side `LIKE` on the encrypted plaintext, with a deterministic variant for joins and `UNIQUE` | ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
+| 🍎 [**syncintosh**](https://github.com/devgyurak/syncintosh) | sync + Macintosh — CLI that keeps developer-environment settings in step across Macs through an end-to-end encrypted git repository, with format-aware 3-way merge — 🚧 early stage | ![Python](https://img.shields.io/badge/-Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) |
+| 🎤 [**hipchapedia**](https://github.com/devgyurak/hipchapedia) | Hipchapedia — AI-powered hip-hop lyrics analysis | ![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) |
+
+<p align="right"><a href="https://github.com/devgyurak?tab=repositories">👉 more repositories</a></p>
+
+## 📔 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
 - [내 서버에 적절한 worker 할당하기 (Feat. Nginx, Gunicorn, Uvicorn)](https://velog.io/@devgyurak/%EB%82%B4-%EC%84%9C%EB%B2%84%EC%97%90-%EC%A0%81%EC%A0%88%ED%95%9C-worker-%ED%95%A0%EB%8B%B9%ED%95%98%EA%B8%B0-Feat.-Nginx-Gunicorn-Uvicorn)
@@ -34,29 +78,19 @@ fun main() {
 - [다신 만나지 말자, 2023년](https://velog.io/@devgyurak/%EB%8B%A4%EC%8B%A0-%EB%A7%8C%EB%82%98%EC%A7%80-%EB%A7%90%EC%9E%90-2023%EB%85%84)
 <!-- BLOG-POST-LIST:END -->
 
-## 🔧 Technologies & Tools
+<p align="right"><a href="https://velog.io/@devgyurak/posts">👉 more posts on velog</a></p>
 
-**Programming Languages:**
+## 📊 GitHub Stats
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Kotlin](https://img.shields.io/badge/kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=FF6B35)
+<div align="center">
 
-**Frameworks:**
+<a href="https://github.com/devgyurak">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=devgyurak&show_icons=true&include_all_commits=true&hide_border=true&theme=transparent&title_color=7F52FF&icon_color=7F52FF" alt="GitHub stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devgyurak&layout=compact&hide_border=true&theme=transparent&title_color=7F52FF" alt="Top languages"/>
+</a>
 
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=Spring%20Boot&logoColor=white)
+<img src="https://streak-stats.demolab.com?user=devgyurak&hide_border=true&theme=transparent&ring=7F52FF&fire=7F52FF&currStreakLabel=7F52FF" alt="GitHub streak"/>
 
-**OS, Deploy:**
+</div>
 
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-
-**Databases:**
-
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F52FF,100:3670A0&height=120&section=footer" width="100%" alt="footer"/>
