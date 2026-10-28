@@ -73,9 +73,11 @@ fun main() {
 ## 📔 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [내 서버에 적절한 worker 할당하기 (Feat. Nginx, Gunicorn, Uvicorn)](https://velog.io/@devgyurak/%EB%82%B4-%EC%84%9C%EB%B2%84%EC%97%90-%EC%A0%81%EC%A0%88%ED%95%9C-worker-%ED%95%A0%EB%8B%B9%ED%95%98%EA%B8%B0-Feat.-Nginx-Gunicorn-Uvicorn)
-- [어쨌든 완성했으니까 좋았쓰! (좋았쓰! 변환기 프로젝트 회고)](https://velog.io/@devgyurak/%EC%96%B4%EC%A8%8C%EB%93%A0-%EC%99%84%EC%84%B1%ED%96%88%EC%9C%BC%EB%8B%88%EA%B9%8C-%EC%A2%8B%EC%95%98%EC%93%B0-%EC%A2%8B%EC%95%98%EC%93%B0-%EB%B3%80%ED%99%98%EA%B8%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0)
+- [내 서버에 적절한 worker 할당하기 &lpar;Feat. Nginx, Gunicorn, Uvicorn&rpar;](https://velog.io/@devgyurak/%EB%82%B4-%EC%84%9C%EB%B2%84%EC%97%90-%EC%A0%81%EC%A0%88%ED%95%9C-worker-%ED%95%A0%EB%8B%B9%ED%95%98%EA%B8%B0-Feat.-Nginx-Gunicorn-Uvicorn)
+- [어쨌든 완성했으니까 좋았쓰! &lpar;좋았쓰! 변환기 프로젝트 회고&rpar;](https://velog.io/@devgyurak/%EC%96%B4%EC%A8%8C%EB%93%A0-%EC%99%84%EC%84%B1%ED%96%88%EC%9C%BC%EB%8B%88%EA%B9%8C-%EC%A2%8B%EC%95%98%EC%93%B0-%EC%A2%8B%EC%95%98%EC%93%B0-%EB%B3%80%ED%99%98%EA%B8%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0)
 - [다신 만나지 말자, 2023년](https://velog.io/@devgyurak/%EB%8B%A4%EC%8B%A0-%EB%A7%8C%EB%82%98%EC%A7%80-%EB%A7%90%EC%9E%90-2023%EB%85%84)
+- [뭔가 엄청났던 2022년을 끝내면서](https://velog.io/@devgyurak/%EB%AD%94%EA%B0%80-%EC%97%84%EC%B2%AD%EB%82%AC%EB%8D%98-2022%EB%85%84%EC%9D%84-%EB%81%9D%EB%82%B4%EB%A9%B4%EC%84%9C)
+- [Django는 왜 MTV 패턴을 사용할까?](https://velog.io/@devgyurak/Django%EB%8A%94-%EC%99%9C-MTV-%ED%8C%A8%ED%84%B4%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%A0%EA%B9%8C)
 <!-- BLOG-POST-LIST:END -->
 
 <p align="right"><a href="https://velog.io/@devgyurak/posts">👉 more posts on velog</a></p>
